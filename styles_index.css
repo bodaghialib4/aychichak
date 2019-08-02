@@ -1,0 +1,330 @@
+
+.contentPictureSell
+{
+    width: 70%;
+    margin: auto;
+    margin-top: 8vw; /*20px;*/
+}
+
+    .contentPictureSell img
+    {
+        width: 100%;
+    }
+
+.contentTextSell
+{
+    width: 82vw; /*205px;*/
+    margin-right: 6vw; /*15px;*/
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+    .contentTextSell p
+    {
+        font-size: 5vw; /*13px;*/
+        margin-bottom: 0;
+    }
+
+p.littleLeftP
+{
+    text-align: left;
+    padding-left: 1.2vw; /*3px;*/
+    font-size: 3.2vw; /*8px;*/
+    margin-top: 2vw; /*5px;*/
+    line-height: 1.2vw; /*3px;*/
+}
+
+.contentPictureFeature
+{
+    width: 56%;
+    margin: auto;
+    margin-top: 1.2vw; /*3px;*/
+}
+
+    .contentPictureFeature img
+    {
+        width: 100%;
+    }
+
+.contentTextFeature
+{
+    padding-right: 2vw; /*5px;*/
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+    .contentTextFeature p
+    {
+        margin-top: 2vw; /*5px;*/
+        padding-bottom: 2vw; /*5px;*/
+        line-height: 3.2vw; /*8px;*/
+        font-size: 4.4vw; /*11px;*/
+        margin-bottom: 0;
+    }
+
+.contentTextPrice
+{
+    width: 80vw; /* 200px;*/
+    padding-right: 4vw; /*10px;*/
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 3.2vw; /*8px;*/
+}
+
+    .contentTextPrice p
+    {
+        font-size: 4.4vw; /*11px;*/
+        margin-bottom: 0;
+    }
+
+        .contentTextPrice p span
+        {
+            font-size: 3.6vw; /*9px;*/
+        }
+	.contentTextPrice img
+    {
+        width:25vw ; /*11px;*/
+		
+    }
+
+
+/*responsive*/
+
+/*1vw = 1% of viewport width*/
+
+@media screen and (max-width:250px)
+{
+
+    .contentPictureSell
+    {
+        margin-top: 20px;
+    }
+
+    .contentTextSell
+    {
+        width: 205px;
+        margin-right: 15px;
+    }
+
+        .contentTextSell p
+        {
+            font-size: 13px;
+        }
+
+    p.littleLeftP
+    {
+        padding-left: 3px;
+        font-size: 8px;
+        margin-top: 5px;
+        line-height: 3px;
+    }
+
+    .contentPictureFeature
+    {
+        margin-top: 3px;
+    }
+
+    .contentTextFeature
+    {
+        padding-right: 5px;
+    }
+
+        .contentTextFeature p
+        {
+            margin-top: 5px;
+            padding-bottom: 5px;
+            line-height: 8px;
+            font-size: 11px;
+        }
+
+    .contentTextPrice
+    {
+        width: 200px;
+        padding-right: 10px;
+        line-height: 8px;
+    }
+
+        .contentTextPrice p
+        {
+            font-size: 11px;
+        }
+
+            .contentTextPrice p span
+            {
+                font-size: 9px;
+            }
+		.contentTextPrice img
+	    {
+    	    width:62px;
+    	}
+
+    #footer
+    {
+        font-size: 7px;
+        padding-right: 5px;
+        padding-top: 1px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (min-width:250px )
+{
+
+
+    .contentPictureSell
+    {
+        margin-top: 8vw; /*20px;*/
+    }
+
+        .contentPictureSell img
+        {
+            width: 100%;
+        }
+
+    .contentTextSell
+    {
+        width: 82vw; /*205px;*/
+        margin-right: 6vw; /*15px;*/
+    }
+
+        .contentTextSell p
+        {
+            font-size: 5vw; /*13px;*/
+        }
+
+    p.littleLeftP
+    {
+        padding-left: 2vw; /*3px;*/
+        font-size: 3.2vw; /*8px;*/
+        margin-top: 2vw; /*5px;*/
+        line-height: 1.2vw; /*3px;*/
+    }
+
+    .contentPictureFeature
+    {
+        margin-top: 1.2vw; /*3px;*/
+    }
+
+    .contentTextFeature
+    {
+        padding-right: 2vw; /*5px;*/
+    }
+
+        .contentTextFeature p
+        {
+            margin-top: 2vw; /*5px;*/
+            padding-bottom: 2vw; /*5px;*/
+            line-height: 3.2vw; /*8px;*/
+            font-size: 4vw; /*11px;*/
+        }
+
+    .contentTextPrice
+    {
+        width: 80vw; /* 200px;*/
+        padding-right: 4vw; /*10px;*/
+        line-height: 3.2vw; /*8px;*/
+    }
+
+        .contentTextPrice p
+        {
+            font-size: 4.4vw; /*11px;*/
+        }
+
+            .contentTextPrice p span
+            {
+                font-size: 3.6vw; /*9px;*/
+            }
+		.contentTextPrice img
+	    {
+    	    width: 25vw; /*62px;*/
+    	}
+
+}
+
+@media screen and (min-width:275px)
+{
+    
+}
+
+@media screen and (min-width:400px)
+{
+    
+}
+
+@media screen and (min-width:500px)
+{
+}
+
+@media screen and (min-width:600px)
+{
+}
+
+@media screen and (min-width:700px)
+{
+
+   
+   
+    .contentPictureSell
+    {
+        margin-top: 56px; /*8vw;*/
+    }
+
+    .contentTextSell
+    {
+        width: 574px; /*82vw;*/
+        margin-right: 42px; /* 6vw;*/
+    }
+
+        .contentTextSell p
+        {
+            font-size: 36px; /* 5.2vw;*/
+        }
+
+    p.littleLeftP
+    {
+        padding-left: 8.5px; /* 1.2vw;*/
+        font-size: 22px; /* 3.2vw;*/
+        margin-top: 14px; /* 2vw;*/
+        line-height: 8.5px; /* 1.2vw;*/
+    }
+
+    .contentPictureFeature
+    {
+        margin-top: 8.5px; /* 1.2vw;*/
+    }
+
+    .contentTextFeature
+    {
+        padding-right: 14px; /* 2vw;*/
+    }
+
+        .contentTextFeature p
+        {
+            margin-top: 14px; /* 2vw;*/
+            padding-bottom: 14px; /* 2vw;*/
+            line-height: 22px; /* 3.2vw;*/
+            font-size: 28px; /* 4.4vw;*/
+        }
+
+    .contentTextPrice
+    {
+        width: 560px; /* 80vw;*/
+        padding-right: 28px;/*4vw;*/
+        line-height: 22.4px;/*3.2vw;*/
+    }
+
+        .contentTextPrice p
+        {
+            font-size: 31px; /* 4.4vw;*/
+        }
+
+            .contentTextPrice p span
+            {
+                font-size: 25px; /* 3.6vw;*/
+            }
+		.contentTextPrice img
+	    {
+    	    width: 175px; /*25vw;*/
+    	}
+
+}

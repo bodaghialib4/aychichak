@@ -1,0 +1,824 @@
+@font-face
+{
+    font-family: 'BRoya';
+    src: url('fonts/BRoya.eot');
+    src: url('fonts/BRoya.eot?#iefix') format('embedded-opentype'), /* IE6–8 */ url('fonts/BRoya.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('fonts/BRoya.ttf') format('truetype'), /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */ url('fonts/BRoya.svg#webfont') format('svg');
+}
+
+@font-face
+{
+    font-family: 'BTraffic';
+    src: url('fonts/BTraffic.eot?#') format('eot'), /* IE6–8 */ url('fonts/BTraffic.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('fonts/BTraffic.ttf') format('truetype'); /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+body
+{
+    background-color: #000000;
+    direction: rtl;
+    text-align: right;
+    margin: 0;
+    font-family: "BRoya", "BTraffic", "Tahoma", "Times New Roman", Arial, Times, serif;
+}
+
+#frame
+{
+    width: 100%;
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#header
+{
+    background-image: url(images/header.jpg);
+    background-size: 100%;
+    background-position: top left;
+    background-repeat: no-repeat;
+    min-height: 50px;
+    margin-right:2vw;
+}
+
+#title
+{
+    padding-top: 14px;
+    padding-right: 14px;
+}
+
+.headerText
+{
+    width: 75%;
+}
+
+.preHeaderTitle p
+{
+    padding-top: 45px;
+    color: #BEDABC;
+    margin: 0px;
+    font-size: 31px;
+}
+
+.headerTitle
+{
+    line-height: 84px;
+}
+
+    .headerTitle p
+    {
+        color: #BEDABC;
+        margin-top: 0px;
+        margin-bottom: 0;
+        font-size: 59px;
+        padding-right: 17px;
+    }
+
+.postHeaderTitle
+{
+    line-height: 33.6px;
+}
+
+    .postHeaderTitle p
+    {
+        color: #BEDABC;
+        font-size: 29.4px;
+        padding-right: 290px;
+        margin: 0px;
+        margin-bottom: 0;
+    }
+
+#menu
+{
+    direction: rtl;
+    margin-top: 14px;
+    margin-right: 14px;
+    padding-top: 5px;
+    min-height: 67px;
+}
+
+    #menu ul
+    {
+        list-style: none;
+        padding-right: 0px;
+        margin-bottom: 0px;
+        height: 49px;
+        margin-top: 13px;
+    }
+
+        #menu ul li
+        {
+            display: block;
+            float: right;
+            border-width: 0px;
+            margin-left: 0px;
+            padding-left: 3px;
+            padding-right:5px;
+            text-align: center;
+            background-color: #a29862;
+            margin-left: 14px;
+            max-height: 49px;
+            line-height: 45px;
+            min-width: 87px;
+        }
+
+            #menu ul li a
+            {
+                color: #FFF;
+                font-size: 21px;
+                text-decoration: none; /*underline*/
+            }
+
+            #menu ul li:hover
+            {
+                background-color: #fbd611;
+            }
+
+                #menu ul li:hover a
+                {
+                    color: #000000;
+                }
+
+    #menu li.menuSelected
+    {
+        /*border-radius: 5px 5px 5px 5px;*/
+        background-color: #fbd611;
+    }
+
+        #menu li.menuSelected a
+        {
+            color: black;
+        }
+
+.menuNotSelected
+{
+    /*border-radius: 5px;*/
+    background-color: #262424;
+}
+
+    .menuNotSelected a
+    {
+        color: #787171;
+    }
+
+.menuSelected a
+{
+    color: #787171;
+}
+/**************************************************************/
+#contents
+{
+    margin-left: 2vw; /*5px;*/
+    margin-right: 2vw; /*5px;*/
+    margin-top: 0; /**************/
+}
+
+.content
+{
+    margin-bottom: 5.2vw; /* 13px;*/
+    margin-top: 0px;
+}
+
+.contentHeader
+{
+    background-color: #136905;
+    height: 11vw; /* 22px;*/
+    line-height: 10.5vw; /*23px;*/
+}
+
+    .contentHeader h1
+    {
+        color: #FFF;
+        font-size: 6.4vw; /*16px;*/
+        margin: 0;
+        margin-top: 0;
+        padding-right: 4vw; /*10px;*/
+        padding-top: 0px;
+        font-weight: normal;
+    }
+
+.contentContent
+{
+    border-top-style: dotted;
+    border-color: #5e5f5e;
+    border-top-width: 0.6vw; /*1.5px;*/
+    background-color: #FFF;
+    min-height: 40vw; /* 100px;*/
+    padding-bottom: 8vw; /*20px;*/
+}
+
+#footer
+{
+    background-color: #8a79f3;
+    font-size: 2.8vw; /* 7px;*/
+    padding-right: 2vw; /*5px;*/
+    padding-bottom: 1px;
+    padding-top: 0.4vw; /*1px;*/
+    margin-bottom: 6vw; /*15px;*/
+}
+
+    #footer #eng
+    {
+        direction: ltr;
+        float: left;
+        color: white;
+        font-size: 7px;
+    }
+
+    #footer p
+    {
+        margin: 0;
+    }
+
+.telegramFollower{
+	background-color: #FFFFFF;
+	background-repeat: repeat;
+	border-bottom-right-radius: 5px;
+	border-color: #D4E0F7;
+	border-image: none;
+	border-style: solid;
+	border-top-right-radius: 5px;
+	border-width: 2px 2px 2px 3px;
+	bottom: 20px;
+	color: #fff;
+	left: 0;
+	padding: 5px;
+	position: fixed;
+	text-align: center;
+	z-index: 500;
+}
+.telegramFollower img{
+	width: 25vw;/*175px;*/
+}
+
+/*responsive*/
+
+/*1vw = 1% of viewport width*/
+
+@media screen and (max-width:250px)
+{
+    #frame
+    {
+        width: 250px;
+    }
+
+    #title
+    {
+        padding-top: 5px;
+        padding-right: 5px;
+    }
+
+    .preHeaderTitle p
+    {
+        padding-top: 16px;
+        font-size: 11px;
+    }
+
+    .headerTitle
+    {
+        line-height: 30px;
+    }
+
+        .headerTitle p
+        {
+            font-size: 21px;
+            padding-right: 6px;
+        }
+
+    .postHeaderTitle
+    {
+        line-height: 12px;
+    }
+
+        .postHeaderTitle p
+        {
+            font-size: 10.5px;
+            padding-right: 103px;
+        }
+
+    #menu
+    {
+        margin-right: 0px;
+        min-height: 26px;
+        margin-top:5.5px;
+        padding-top:5px;
+    }
+
+        #menu ul
+        {
+            margin-bottom: 1px;
+        margin-top: 5px;
+        height: 20px;
+        }
+
+        #menu ul li
+        {
+            
+            padding: 0;
+            padding-left: 1px;
+            padding-right: 2px;
+            margin-left: 4px;
+            max-height: 20px;
+            line-height: 18px;
+            min-width: 35px;
+            /*width:15%;*/
+        }
+
+            #menu ul li a
+            {
+                font-size: 7.5px;
+            }
+
+    #contents
+    {
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 0; /**************/
+    }
+
+    .content
+    {
+        margin-bottom: 13px;
+    }
+
+    .contentHeader
+    {
+        height: 27.5px;
+        line-height: 23px;
+    }
+
+        .contentHeader h1
+        {
+            font-size: 16px;
+            padding-right: 10px;
+        }
+
+    .contentContent
+    {
+        border-top-width: 1.5px;
+        min-height: 100px;
+        padding-bottom: 20px;
+    }
+
+    #footer
+    {
+        font-size: 7px;
+        padding-right: 5px;
+        padding-top: 1px;
+        margin-bottom: 15px;
+    }
+    #footer #eng
+        {
+            font-size: 7px;
+        }
+	.telegramFollower img{
+		width: 50px;/*25vw;*/
+	}
+}
+
+@media screen and (min-width:250px )
+{
+    #title
+    {
+        padding-top:5px;
+        padding-right: 2px;
+        
+        padding-top: 2vw; /*5px;*/
+        padding-right: 1vw; /*5px;*/
+    }
+
+    .preHeaderTitle p
+    {
+        padding-top: 16px;
+        font-size: 11px;
+
+        line-height:7.3vw;
+        padding-top: 6.4vw; /*16px;*/
+        font-size: 4.4vw; /*11px;*/
+    }
+
+    .headerTitle
+    {
+        line-height: 30px;
+
+        line-height: 12vw; /*30px;*/
+    }
+
+        .headerTitle p
+        {
+            font-size: 21px;
+            padding-right: 6px;
+
+            line-height:12vw;
+            font-size: 8.4vw; /*21px;*/
+            padding-right: 2.4vw; /*6px;*/
+        }
+
+    .postHeaderTitle
+    {
+        line-height: 12px;
+
+        line-height: 4.8vw; /*12px;*/
+    }
+
+        .postHeaderTitle p
+        {
+            font-size: 10.5px;
+            padding-right: 103px;
+
+            line-height:5vw;
+            font-size: 4.2vw; /*10.5px;*/
+            padding-right: 41.2vw; /*103px;*/
+        }
+
+    #menu
+    {
+        direction: rtl;
+        margin-top: 5.5px; /******************************************/
+        margin-right: 0px;
+        margin-right: 0vw; /*5px;*/
+        padding-top: 5px;
+        min-height: 26px;
+    }
+
+        #menu ul
+        {
+            list-style: none;
+            padding-right: 0px;
+            margin-bottom: 1px;
+            height: 20px;
+            margin-top: 5px;
+        }
+
+            #menu ul li
+            {
+                min-width: 35px;
+
+                display: block;
+                float: right;
+                border-width: 0px;
+                margin-left: 0px;
+                padding:0;
+                padding-left: 1px;
+                padding-right: 2px;
+                text-align: center;
+                background-color: #a29862;
+                margin-left: 4px;
+                max-height: 20px;
+                line-height: 18px;
+                min-width: 35px;
+                width:auto;
+                /*width:15%;*/
+            }
+
+            #menu ul li a
+                {
+                    font-size: 7.5px;
+
+                    font-size: 3vw; /* 12px;*/
+
+                    width:auto;
+                }
+
+    #contents
+    {
+        margin-left: 5px;
+        margin-right: 5px;
+
+        margin-left: 2vw; /*5px;*/
+        margin-right: 2vw; /*5px;*/
+    }
+
+    .content
+    {
+        margin-bottom: 13px;
+
+        margin-bottom: 5.2vw; /* 13px;*/
+    }
+
+    .contentHeader
+    {
+        height: 28px;
+
+        height: 11vw; /* 22px;*/
+        line-height: 10.5vw;
+    }
+
+        .contentHeader h1
+        {
+            font-size: 16px;
+            padding-right: 10px;
+
+            font-size: 6.4vw; /*16px;*/
+            padding-right: 4vw; /*10px;*/
+        }
+
+    .contentContent
+    {
+        border-top-width: 1.5px;
+        min-height: 100px;
+        padding-bottom: 20px;
+
+        border-top-width: 0.6vw; /*1.5px;*/
+        min-height: 40vw; /* 100px;*/
+        padding-bottom: 8vw; /*20px;*/
+    }
+
+    #footer
+    {
+        font-size: 7px;
+        padding-right: 5px;
+        padding-top: 1px;
+        margin-bottom: 15px;
+
+        font-size: 2.3vw; /* 7px;*/
+        padding-right: 2vw; /*5px;*/
+        padding-top: 0.4vw; /*1px;*/
+        margin-bottom: 6vw; /*15px;*/
+    }
+
+        #footer #eng
+        {
+            font-size: 2vw;
+        }
+	.telegramFollower img{
+		width: 20vw;/*50px;*/
+	}
+}
+
+@media screen and (min-width:275px)
+{
+    #menu
+    {
+        margin-top: 5.5px;
+        padding-top: 2px;
+        min-height: 26px;
+
+        margin-top: 2.0vw; /*8px;*/
+        padding-top: 0.7vw; /* 2px;*/
+        min-height: 9.5vw; /*26px;*/
+    }
+
+        #menu ul
+        {
+            height: 20px;
+            margin-top: 5px;
+
+            margin-bottom: 0;
+            height: 7vw; /* 20px;*/
+            margin-top: 1.81vw; /* 5px;*/
+        }
+
+            #menu ul li
+            {
+                padding-left: 1.4px;
+                padding-right: 2.2px;
+                margin-left: 5.5px;
+                max-height: 20px;
+                line-height: 18px;
+                min-width: 35px;
+
+                padding: 0;
+                padding-left: 0.5vw; /* 5px;*/
+                padding-right: 0.8vw; /* 5px;*/
+                margin-left: 2vw; /* 4px;*/
+                max-height: 7vw; /* 20px;*/
+                line-height: 6.5vw; /* 20px;*/
+                min-width: 12.5vw;
+                text-align: center;
+            }
+
+                #menu ul li a
+                {
+                    font-size: 8px;
+
+                    font-size: 3vw; /* 12px;*/
+                }
+}
+
+@media screen and (min-width:400px)
+{
+    #menu ul li a
+    {
+        font-size: 12px;
+
+        font-size: 3vw; /* 12px;*/
+    }
+}
+
+@media screen and (min-width:500px)
+{
+    #menu
+    {
+        margin-top: 10px;
+        padding-top: 3.5px;
+        min-height: 47.5px;
+        margin-top: 2.0vw; /*8px;*/
+        padding-top: 0.7vw; /* 2px;*/
+        min-height: 9.5vw; /*26px;*/
+    }
+
+        #menu ul
+        {
+            height: 35px;
+            margin-top: 9px;
+            margin-bottom: 0;
+            height: 7vw; /* 20px;*/
+            margin-top: 1.81vw; /* 5px;*/
+        }
+
+            #menu ul li
+            {
+                padding-left: 2.5px;
+                padding-right: 4px;
+                margin-left: 10px;
+                max-height: 35px;
+                line-height: 32.5px;
+                min-width: 62.5px;
+                padding: 0;
+                padding-left: 0.5vw; /* 5px;*/
+                padding-right: 0.8vw; /* 5px;*/
+                margin-left: 2vw; /* 4px;*/
+                max-height: 7vw; /* 20px;*/
+                line-height: 6.5vw; /* 20px;*/
+                min-width: 12.5vw;
+                text-align: center;
+            }
+
+                #menu ul li a
+                {
+                    font-size: 15px;
+                    font-size: 3vw; /* 12px;*/
+                }
+}
+
+@media screen and (min-width:600px)
+{
+        #menu
+    {
+        margin-top: 12px;
+        padding-top: 4.2px;
+        min-height: 57px;
+
+        margin-top: 2.0vw; /*8px;*/
+        padding-top: 0.7vw; /* 2px;*/
+        min-height: 9.5vw; /*26px;*/
+    }
+
+        #menu ul
+        {
+            height: 42px;
+            margin-top: 11px;
+
+            margin-bottom: 0;
+            height: 7vw; /* 20px;*/
+            margin-top: 1.81vw; /* 5px;*/
+        }
+
+            #menu ul li
+            {
+                padding-left: 3.5px;
+                padding-right: 4.8px;
+                margin-left: 12px;
+                max-height: 42px;
+                line-height: 32.5px;
+                min-width: 75px;
+
+                padding: 0;
+                padding-left: 0.5vw; /* 5px;*/
+                padding-right: 0.8vw; /* 5px;*/
+                margin-left: 2vw; /* 4px;*/
+                max-height: 7vw; /* 20px;*/
+                line-height: 6.5vw; /* 20px;*/
+                min-width: 12.5vw;
+                text-align: center;
+            }
+
+                #menu ul li a
+                {
+                    font-size: 18px;
+
+                    font-size: 3vw; /* 12px;*/
+                }
+}
+
+@media screen and (min-width:700px)
+{
+
+    #title
+    {
+        padding-top: 14px; /* 2vw;*/
+        padding-right: 14px; /* 2vw;*/
+    }
+
+    #header
+    {
+        margin-right:14px;
+    }
+
+    .preHeaderTitle p
+    {
+        padding-top: 45px; /* 6.4vw;*/
+        font-size: 31px; /* 4.4vw;*/
+        line-height: 51px;/*7.3vw;*/
+    }
+
+    .headerTitle
+    {
+        line-height: 84px; /*12vw;*/
+    }
+
+        .headerTitle p
+        {
+            font-size: 59px; /*8.4vw;*/
+            padding-right: 17px; /*2.4vw;*/
+            line-height: 84px;/*12vw;*/
+        }
+
+    .postHeaderTitle
+    {
+        line-height: 33.6px; /* 4.8vw;*/
+    }
+
+        .postHeaderTitle p
+        {
+            font-size: 29.4px; /*4.2vw;*/
+            padding-right: 290px; /*41.2vw;*/
+            line-height: 35px;/*5vw;*/
+        }
+
+    #menu
+    {
+        margin-right: 0px; /* 2vw;*/
+        margin-top: 14px; /*2.0vw;*/
+        padding-top: 5px; /* 0.7vw;*/
+        min-height: 67px; /* 9.5vw;*/
+    }
+
+        #menu ul
+        {
+            margin-bottom: 0;
+            height: 49px; /*7vw;*/
+            margin-top: 13px; /* 1.81vw;*/
+        }
+
+            #menu ul li
+            {
+                padding: 0;
+                padding-left: 3px; /* 0.5vw;*/
+                padding-right: 5px; /* 0.8vw;*/
+                margin-left: 14px; /*2vw;*/
+                max-height: 49px; /* 7vw;*/
+                line-height: 45px; /*6.5vw;*/
+                min-width: 87px; /*12.5vw;*/
+            }
+
+                #menu ul li a
+                {
+                    font-size: 21px; /*3vw;*/
+                }
+
+    #contents
+    {
+        margin-left: 14px; /*2vw;*/
+        margin-right: 14px; /*2vw;*/
+        margin-top: 0; /**************/
+    }
+
+    .content
+    {
+        margin-bottom: 36px; /* 5.2vw;*/
+    }
+
+    .contentHeader
+    {
+        height: 77px; /*11vw;*/
+        line-height: 73.5px; /*9.2vw;*/
+    }
+
+        .contentHeader h1
+        {
+            font-size: 45px; /*6.4vw;*/
+            padding-right: 28px; /*4vw;*/
+        }
+
+    .contentContent
+    {
+        border-top-width: 4px; /* 0.6vw;*/
+        min-height: 280px; /* 40vw;*/
+        padding-bottom: 56px; /* 8vw;*/
+    }
+
+    #footer
+    {
+        font-size: 19px; /*2.8vw;*/
+        padding-right: 14px; /* 2vw;*/
+        padding-top: 3px; /* 0.4vw;*/
+        margin-bottom: 42px; /* 6vw;*/
+    }
+
+        #footer #eng
+        {
+            font-size: 15px;
+        }
+	.telegramFollower img{
+		width: 140px;/*20vw;*/
+	}
+}
