@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /images/
+Disallow: /OldSite950107/
+Disallow: /fonts/
+Disallow: /1web.config
+Disallow: /1default.aspx
+Allow: /index.html
+Allow: /products.html
+Allow: /aboutUs.html
+
+Sitemap: http://aychichak.com/sitemap.xml
